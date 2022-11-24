@@ -1,0 +1,292 @@
+name = input(" Enter Your Name: ")
+print(" Welcome", name ,"to the animal guessing game!" )
+print("")
+print(" I'm going to think of an animal word and you have to guess  it! ")
+print("")
+print(" Guess which letters are in the word, then you have to guess the whole thing! ")
+print("")
+print(" You only have 2nd chance each guess ")
+print("")
+print(" Good luck")
+print("")
+print(" Instruction: Big Letter Only")
+print("")
+answer = input(" Are you ready (yes or no)?: ")
+if answer == "yes":
+    print("")
+    print(" Then lets get started ")
+    print("")
+    print(" Guess number 1")
+    guess1 = input(" what animal i am?  H _ _ S _ : ")
+    answer1 = "HORSE"
+    if guess1 == answer1:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess1 != answer1:
+        print("")
+        guess1 = input(" You are wrong, You have last chance. HO _ S _: ")
+        # New letter has been added
+        answer1 = "HORSE"
+        if guess1 == answer1:
+             print("")
+             print(" You are correct!")
+             print("")
+       
+        elif guess1 != answer1:
+             print("")
+             print(" You are wrong, The answer is ", answer1)
+             print("")
+    else:
+         pass
+            
+    print(" Guess number 2")
+    guess2 = input(" What animal i am?  T _ R _ L _ : ")
+    answer2 = "TURTLE"
+    if guess2 == answer2:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess2 != answer2:
+        print("")
+        guess2 = input(" You are wrong, You have last chance. TU _ TL _ : ")
+     # New letter has been added
+        answer2 = "TURTLE"
+        if guess2 == answer2:
+            print("")
+            print(" You are correct!")
+            print("")
+        elif guess2 != answer2:
+            print("")
+            print(" You are wrong, The answer is ", answer2)
+            print("")
+    else:
+        pass            
+  
+    print(" Guess number 3")
+    guess3 = input(" What animal i am?  H _ M _ _E _ : ") 
+    answer3 = "HAMSTER"
+    if guess3 == answer3:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess3 != answer3:
+        print("")
+        guess3 = input(" You are wrong, You have last chance. HAM _ _ E _ : ")
+        # New letter has been added
+        answer3 = "HAMSTER"
+        if guess3 == answer3:
+            print("")
+            print(" You are correct!")
+            print("")
+       
+        elif guess3 != answer3:
+            print("")
+            print(" You are wrong, The answer is ", answer3)
+            print("")
+        else:
+            pass
+                     
+    print(" Guess number 4")
+    guess4 = input(" What animal i am?  KI _ _ _ N : ") 
+    answer4 = "KITTEN"
+    if guess4 == answer4:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess4 != answer4:
+        print("")
+        guess4 = input(" You are wrong, You have last chance. KI _ T _ N : ")
+        # New letter has been added
+        answer4 = "KITTEN"
+        if guess4 == answer4:
+            print("")
+            print(" You are correct!")
+            print("")
+       
+        elif guess4 != answer4:
+            print("")
+            print(" You are wrong, The answer is ", answer4)
+            print("")
+        else:
+           pass
+                                             
+    print(" Guess number 5")
+    guess5 = input(" What animal i am?  P _ _ _ Y : ") 
+    answer5 = "PUPPY"
+    if guess5 == answer5:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess5 != answer5:
+        print("")
+        guess5 = input(" You are wrong, You have last chance. P _ _ PY : ")
+    # New letter has been added
+        answer5 = "PUPPY"
+        if guess5 == answer5:
+            print("")
+            print(" You are correct!")
+            print("")
+       
+        elif guess5 != answer5:
+            print("")
+            print(" You are wrong, The answer is ", answer5)
+            print("")
+    else:
+        pass                    
+               
+    print(" Guess number 6")
+    guess6 = input(" What animal i am?  R _ _ B _T : ") 
+    answer6 = "RABBIT"
+    if guess6 == answer6:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess6 != answer6:
+        print("")
+        guess6 = input(" You are wrong, You have last chance. RA _ B _ T : ")
+    # New letter has been added
+        answer6 = "RABBIT"
+        if guess6 == answer6:
+            print("")
+            print(" You are correct!")
+            print("")
+       
+        elif guess6 != answer6:
+            print("")
+            print(" You are wrong, The answer is ", answer6)
+            print("")
+    else:
+        pass          
+   
+    print(" Guess number 7")
+    guess7 = input(" What animal i am?  S _ A _ R _W : ") 
+    answer7 = "SPARROW"
+    if guess7 == answer7:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess7 != answer7:
+        print("")
+        guess7 = input(" You are wrong, You have last chance. SPA _ R _ W : ")
+    # New letter has been added
+        answer7 = "SPARROW"
+        if guess7 == answer7:
+            print("")
+            print(" You are correct!")
+            print("")
+       
+        elif guess7 != answer7:
+            print("")
+            print(" You are wrong, The answer is ", answer7)
+            print("")
+    else:
+        pass  
+
+    print(" Guess number 8")
+    guess8 = input(" What animal i am?  _ I _ E _ N : ") 
+    answer8 = "PIGEON"
+    if guess8 == answer8:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess8 != answer8:
+        print("")
+        guess8 = input(" You are wrong, You have last chance. P I _ E _ N : ")
+    # New letter has been added
+       
+        answer8 = "PIGEON"
+        if guess8 == answer8:
+            print("")
+            print(" You are correct!")
+            print("")       
+        elif guess8 != answer8:
+            print("")
+            print(" You are wrong, The answer is ", answer8)
+            print("")
+    else:
+        pass                        
+
+    print(" Guess number 9")
+    guess9 = input(" What animal i am?  B _ _ _ : ") 
+    answer9 = "BEAR"
+    if guess9 == answer9:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess9 != answer9:
+        print("")
+        guess9 = input(" You are wrong, You have last chance. BE _ _ : ")
+    # New letter has been added
+        answer9 = "BEAR"
+        if guess9 == answer9:
+            print("")
+            print(" You are correct!")
+            print("")
+       
+        elif guess9 != answer9:
+            print("")
+            print(" You are wrong, The answer is ", answer9)
+            print("")
+    else:
+        pass           
+
+    print(" Guess number 10")
+    guess10 = input(" What animal i am? _ I _ _ R : ") 
+    answer10 = "TIGER"
+    if guess10 == answer10:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess10 != answer10:
+        print("")
+        guess10 = input(" You are wrong, You have last chance. TI _ _ R : ")
+    # New letter has been added
+        answer10 = "TIGER"
+        if guess10 == answer10:
+            print("")
+            print(" You are correct!")
+            print("")
+       
+        elif guess10 != answer10:
+            print("")
+            print(" You are wrong, The answer is ", answer10)
+            print("")
+    else:
+        pass    
+
+    print(" Guess number 11")
+    guess11 = input(" What animal i am? W _ _ F : ") 
+    answer11 = "WOLF"
+    if guess11 == answer11:
+        print("")
+        print(" Yes! You are correct!")
+        print("")
+    elif guess11 != answer11:
+        print("")
+        guess11 = input(" You are wrong, You have last chance. W _ LF : ")
+    # New letter has been added
+        answer11 = "WOLF"
+        if guess11 == answer11:
+            print("")
+            print(" You are correct!")
+            print("")
+       
+        elif guess11 != answer11:
+            print("")
+            print(" You are wrong, The answer is ", answer11)
+            print("")
+            print(" That's all Thanks for playing")    
+    else:
+        pass
+    
+    
+elif answer == "no":
+    print("")
+    print(" Oh! what a shame! Thank you for playing! ")
+    print("")
+
+else:
+    print("")
+    print(" Invalid option")
+    
